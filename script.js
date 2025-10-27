@@ -67,7 +67,7 @@ const ticker = wheel.querySelector(".ticker");
 // на сколько секторов нарезаем круг
 const prizeSlice = 360 / prizes.length;
 // на какое расстояние смещаем сектора друг относительно друга
-const prizeOffset = Math.floor(300 / prizes.length);
+const prizeOffset = Math.floor(180 / prizes.length);
 // прописываем CSS-классы, которые будем добавлять и убирать из стилей
 const spinClass = "is-spinning";
 const selectedClass = "selected";
