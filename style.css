@@ -31,7 +31,7 @@ body {
   display: grid;
   grid-gap: calc(var(--size) / 20);
   /* выравниваем содержимое блока по центру */
-  align-items: center;
+  align-items: left;
   /* задаём имена областей внутри сетки */
   grid-template-areas:
     "spinner"
